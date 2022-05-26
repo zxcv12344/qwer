@@ -1,0 +1,10 @@
+
+group: bluezone
+language: java
+
+env:
+  global:
+  - BUILD_FILE=dist/ANTEAR.ear
+
+script:
+  - ant
